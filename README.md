@@ -18,3 +18,12 @@ Configure:
 Admin panel > System > Configuration > SALES > Payment Methods > Ottopay Module:
 
 ![Otopay config](https://github.com/davidduong90/otopay/blob/master/media/otopay.png)
+
+Note:
+For Production Environment
+Request Payment Full Path: https://secure.ottopay.id/payment-services/v2.1.0/api/token
+Transaction Status Full Path: https://secure.ottopay.id/sp/service/v3.0.0/api/checkstatus
+
+For Development Environment
+Request Payment Full Path: http://34.101.150.6:8955/payment-services/v2.1.0/api/token
+Transaction Status Full Path: http://54.169.81.53:8902/sp/service/v3.0.0/api/checkstatus
